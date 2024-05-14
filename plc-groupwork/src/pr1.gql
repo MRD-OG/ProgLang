@@ -1,0 +1,45 @@
+
+nodeset staff = [str firstname, str familyname, str role, int age] labels=true;
+
+nodeset students = [str firstname, str familyname, str role, int age] labels=true;
+
+relationset isFriend = [];
+
+-- "." is left associative and has highest priority
+
+resetOutputBuffer();
+
+pushHeader(students.firstname, students.age);
+
+for pupil in students {
+
+  for staffMember in staff {
+
+    bool allowed = false;
+
+    if (pupil.age == staffMember.age && pupil.firstname.startsWith("A", "B", "C")) {
+      pupil.age += 2;
+      allowed = true;
+    }
+
+    if (allowed) {
+      pushData(pupil.firstname, pupil.age);
+    }
+
+  }
+
+}
+
+GLOB elderly = NEW nodeset [str firstname, int age] labels=false;
+
+for staffMember in staff {
+  eldery.add("e" + staffMember.id, staffMember.firstname, staffMember.age);
+}
+
+-- var.attr -> attr
+-- var.method() -> var
+-- var.attr.method() -> attr
+-- var.attr.method().method() -> attr
+
+-- output buffer is a list of strings
+-- print buffer after program execution

@@ -1,0 +1,20 @@
+import access;
+
+nodeset staff = [str firstname, str familyname, str role, int age] labels = true;
+nodeset students = [str firstname, str familyname, int age] labels = true;
+nodeset visitors = [str firstname, str familyname] labels = true;
+
+--relationset isVisiting = [];
+
+--relation r = isVisiting.get(0);
+
+--clearBuffer();
+--pushHeader(students.id, students.firstname, students.age);
+
+--node student = students.get("cr2");
+--int newAge = student.age + 1;
+--student.age = newAge;
+
+--pushData(student.id, student.firstname, student.age);
+
+--printBuffer();

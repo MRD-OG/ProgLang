@@ -1,0 +1,66 @@
+cabal-version: 2.2
+
+-- This file has been generated from package.yaml by hpack version 0.36.0.
+--
+-- see: https://github.com/sol/hpack
+
+name:           plc-groupwork
+version:        0.1.0.0
+description:    Please see the README on GitHub at <https://github.com/githubuser/plc-groupwork#readme>
+homepage:       https://github.com/githubuser/plc-groupwork#readme
+bug-reports:    https://github.com/githubuser/plc-groupwork/issues
+author:         Author name here
+maintainer:     example@example.com
+copyright:      2024 Author name here
+license:        BSD-3-Clause
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+    CHANGELOG.md
+
+source-repository head
+  type: git
+  location: https://github.com/githubuser/plc-groupwork
+
+library
+  exposed-modules:
+      DataStructure
+      Evaluator
+      LangAst
+      LangLexer
+      LangParser
+      LangTokens
+      N4jAst
+      N4jLexer
+      N4jParser
+      N4jTokens
+  other-modules:
+      Paths_plc_groupwork
+  autogen-modules:
+      Paths_plc_groupwork
+  hs-source-dirs:
+      src
+  ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints
+  build-depends:
+      array
+    , base >=4.7 && <5
+  default-language: Haskell2010
+
+executable plc-groupwork-exe
+  main-is: Gql.hs
+  other-modules:
+      Paths_plc_groupwork
+  autogen-modules:
+      Paths_plc_groupwork
+  hs-source-dirs:
+      app
+  ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints -threaded -rtsopts -with-rtsopts=-N
+  build-tools:
+      alex
+    , happy
+  build-depends:
+      array
+    , base >=4.7 && <5
+    , plc-groupwork
+  default-language: Haskell2010

@@ -5,6 +5,8 @@ data LangToken =
   | LangTokenRParen
   | LangTokenLSquare
   | LangTokenRSquare
+  | LangTokenLCurly
+  | LangTokenRCurly
   
   | LangTokenSemiColon
   | LangTokenComma
@@ -45,6 +47,15 @@ data LangToken =
   | LangTokenClearBufferCommand
   | LangTokenPushHeaderCommand
   | LangTokenPushDataCommand
+
+  | LangTokenFor
+  | LangTokenFrom
+  | LangTokenTo
+  | LangTokenStep
+
+  | LangTokenIf
+  | LangTokenElseif
+  | LangTokenElse
 
   | LangTokenImport
 

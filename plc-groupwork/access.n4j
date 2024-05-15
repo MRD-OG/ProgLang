@@ -10,7 +10,7 @@ nj10, "Nigel", "Jackson", 16, Student
 rw5, "Rebecca", "Watson", 15, Student
 pp8, "Peter", "Potter", 17, Student
 jd6, "Jing","Ding", 16, Student
-cr2, "Connor","Flaherty",+15, Student
+cr2, "Connor","Flaherty", 15, Student
 
 :ID, firstname:string , familyname: string, :LABEL
 v1, "Ray","Wise",Visitor

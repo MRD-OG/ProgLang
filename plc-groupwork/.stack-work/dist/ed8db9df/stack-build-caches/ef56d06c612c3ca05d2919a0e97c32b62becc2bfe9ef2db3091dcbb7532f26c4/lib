@@ -1,0 +1,40 @@
+C:\Users\micha\AppData\Local\Programs\stack\x86_64-windows\ghc-8.10.7\lib\include\ghcautoconf.h:
+  hash: 79e5e4547ee0149ae7d7de086912bed7ea8c6894ac2107020270012adf60994c
+C:\Users\micha\AppData\Local\Programs\stack\x86_64-windows\ghc-8.10.7\lib\include\ghcconfig.h:
+  hash: 03f4611ae97decc9e8c76c212bf7886d003b29d5c62b43fee6623a799f6e5fdf
+C:\Users\micha\AppData\Local\Programs\stack\x86_64-windows\ghc-8.10.7\lib\include\ghcplatform.h:
+  hash: f477a9511e644dcd8493ce71abbe8a25e28ab2522dd624d4e7ef9dbc1cc03fdf
+C:\Users\micha\AppData\Local\Programs\stack\x86_64-windows\ghc-8.10.7\lib\include\ghcversion.h:
+  hash: c013160c9aa8a98f4638616496dce720c23ceca8ef9d6b3212b654642fbda5e4
+C:\Users\micha\ProgLang\plc-groupwork\.stack-work\dist\ed8db9df\build\autogen\Paths_plc_groupwork.hs:
+  hash: af0c71ad3a9f5a62aac236e73f7b0096cc38cfc8f993fded3b91dbd59e2d3b78
+C:\Users\micha\ProgLang\plc-groupwork\.stack-work\dist\ed8db9df\build\autogen\cabal_macros.h:
+  hash: 77f211cabb9d447c3c065909f9787b1f77e70a6fe7cc5486cb088d9e07789bcf
+C:\Users\micha\ProgLang\plc-groupwork\CHANGELOG.md:
+  hash: 373b200a8eacc042e86c3c3c513ea899d833760d58e4c99b537f4ec768c71195
+C:\Users\micha\ProgLang\plc-groupwork\README.md:
+  hash: 10c7f0fac46476a8ba5a6619c7cf43d6e1564e0c1891ebca8919758206c22943
+C:\Users\micha\ProgLang\plc-groupwork\package.yaml:
+  hash: 76784e419b38cca23a961f0a2e1dedc967192cb48e6d90bb9e8f7b5d1528f08c
+C:\Users\micha\ProgLang\plc-groupwork\plc-groupwork.cabal:
+  hash: 7257865fe759bd8b16ad861843dec9fdfae6ed047816ec8b05c17fe28ec552a2
+C:\Users\micha\ProgLang\plc-groupwork\src\DataStructure.hs:
+  hash: 7c97423058ce3c8a13a6ed20c5fbaa10a33f49b00eab33195eae9ab519ab1292
+C:\Users\micha\ProgLang\plc-groupwork\src\Evaluator.hs:
+  hash: 8dec1fcd596fd3a4ed89064e8a953b58fdad19227eea2fd9068c4076b61c6de2
+C:\Users\micha\ProgLang\plc-groupwork\src\LangAst.hs:
+  hash: bfa41bca794397f04b03929dc1441d5f6c9e1282720eea1b2ba1c442e6b75d8f
+C:\Users\micha\ProgLang\plc-groupwork\src\LangLexer.x:
+  hash: cc3e4870c956210000b287fb9a88527c46dd70e6db5e5199c8cbfb7ecb35a534
+C:\Users\micha\ProgLang\plc-groupwork\src\LangParser.y:
+  hash: a544ddf3266a4a8aea17855cfc91c44819bfea35fc1fbabf9c1247bacf563469
+C:\Users\micha\ProgLang\plc-groupwork\src\LangTokens.hs:
+  hash: 559ed82318693415d406764650e5654915e56685630c7f85567e82317da7c580
+C:\Users\micha\ProgLang\plc-groupwork\src\N4jAst.hs:
+  hash: 5f670c09fe07bf8ae2e66b7dc262980f78e3718fce29d797e360b2f354670a0e
+C:\Users\micha\ProgLang\plc-groupwork\src\N4jLexer.x:
+  hash: 1ad4d96d72ff39021a3d4a52b1e434471612763c74d32b0e25920639c3edad5a
+C:\Users\micha\ProgLang\plc-groupwork\src\N4jParser.y:
+  hash: 2918658e2daf6ae91c8e73d8a4f581acf13004e2ab16749853e54fdd97a370e2
+C:\Users\micha\ProgLang\plc-groupwork\src\N4jTokens.hs:
+  hash: 69abddfe1f7d789ceb279796b399e7f5a5a8b4d608272513553e73b62e2dfb9f

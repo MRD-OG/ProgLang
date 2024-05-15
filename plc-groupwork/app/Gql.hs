@@ -26,6 +26,8 @@ main = do
   let langTokenList = LangLexer.alexScanTokens programPlaintext
   let program = LangParser.parseLangTokens langTokenList
 
+  print program
+
   case program of
     [] -> putStrLn "Program is empty!"
     ((Import dataFilename):restInstructions) -> do
@@ -34,8 +36,8 @@ main = do
       graphDataPlaintext <- readFile filepath
       let n4jTokenList = N4jLexer.alexScanTokens graphDataPlaintext
       let n4jData = N4jParser.parseN4jTokens n4jTokenList
-
-      print program
+      -- print n4jTokenList
+      -- print program
 
       let programOutput = runProgram restInstructions (createDataEnvironment n4jData)
       print programOutput

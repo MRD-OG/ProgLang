@@ -13,6 +13,8 @@ tokens :-
   ")" {\_ -> LangTokenRParen}
   "[" {\_ -> LangTokenLSquare}
   "]" {\_ -> LangTokenRSquare}
+  "{" {\_ -> LangTokenLCurly}
+  "}" {\_ -> LangTokenRCurly}
   
   ";" {\_ -> LangTokenSemiColon}
   "," {\_ -> LangTokenComma}
@@ -54,6 +56,15 @@ tokens :-
   "clearBuffer" {\_ -> LangTokenClearBufferCommand}
   "pushHeader" {\_ -> LangTokenPushHeaderCommand}
   "pushData" {\_ -> LangTokenPushDataCommand}
+
+  "for" {\_ -> LangTokenFor}
+  "from" {\_ -> LangTokenFrom}
+  "to" {\_ -> LangTokenTo}
+  "step" {\_ -> LangTokenStep}
+
+  "if" {\_ -> LangTokenIf}
+  "elseif" {\_ -> LangTokenElseif}
+  "else" {\_ -> LangTokenElse}
 
   "import" {\_ -> LangTokenImport}
 

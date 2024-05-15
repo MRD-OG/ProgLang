@@ -1,6 +1,7 @@
 module LangAst (
     LangAstProgram
   , LangAstInstruction(..)
+  , LangElseIfBlock(..)
   , LangAstDeclaration(..)
   , LangAstAssignment(..)
   , LangAstVariableType(..)
@@ -19,7 +20,14 @@ data LangAstInstruction =
     Declaration LangAstDeclaration
   | Assignment LangAstAssignment
   | BufferOperation LangAstBufferOperation
-  | Import String
+  | Import String -- Done
+  | EnhancedFor String LangAstExp [LangAstInstruction]
+  | ForXIn String LangAstExp LangAstExp LangAstExp [LangAstInstruction]
+  | If LangAstBooleanLogic [LangAstInstruction] [LangElseIfBlock] (Maybe [LangAstInstruction])
+  deriving (Eq, Show)
+
+data LangElseIfBlock =
+    ElseIf LangAstBooleanLogic [LangAstInstruction]
   deriving (Eq, Show)
 
 data LangAstDeclaration =
@@ -38,6 +46,7 @@ data LangAstVariableType =
   | BooleanType
   | NodeType
   | RelationType
+  | FieldType
   deriving (Eq, Show)
 
 data LangAstSetField =
@@ -64,15 +73,15 @@ data LangAstComparrison =
   deriving (Eq, Show)
 
 data LangAstExp =
-    Subtracion LangAstExp LangAstExp
+    Subtraction LangAstExp LangAstExp
   | Addition LangAstExp LangAstExp
   | Multiplication LangAstExp LangAstExp
   | Division LangAstExp LangAstExp
   | Modulo LangAstExp LangAstExp
   | Power LangAstExp LangAstExp
   | Negative LangAstExp
+  | BooleanNot LangAstExp
   | Dot LangAstExp LangAstDotMethod
-  | Variable String
   | Atomic LangAstAtomicValue
   deriving (Eq, Show)
 

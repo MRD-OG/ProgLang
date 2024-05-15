@@ -30,7 +30,7 @@ for pupil in students {
 
 }
 
-GLOB elderly = NEW nodeset [str firstname, int age] labels=false;
+nodeset elderly = NEW nodeset [str firstname, int age] labels=false;
 
 for staffMember in staff {
   eldery.add("e" + staffMember.id, staffMember.firstname, staffMember.age);

@@ -81,7 +81,7 @@ data LangAstExp =
   | Power LangAstExp LangAstExp
   | Negative LangAstExp
   | BooleanNot LangAstExp
-  | Dot LangAstExp LangAstDotMethod
+  | Dot LangAstBooleanLogic LangAstDotMethod
   | Atomic LangAstAtomicValue
   deriving (Eq, Show)
 

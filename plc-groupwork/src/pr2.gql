@@ -12,7 +12,7 @@ int intValue = 10 % 7;
 str strValue = "helloworld";
 
 node s = students.get("cr2");
-int a = s.age;
+int a = s.age;--.max(3);
 
 --for i from 0 to 9 step 1 {}
 

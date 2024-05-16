@@ -17,17 +17,19 @@ C:\Users\micha\ProgLang\plc-groupwork\README.md:
 C:\Users\micha\ProgLang\plc-groupwork\package.yaml:
   hash: 76784e419b38cca23a961f0a2e1dedc967192cb48e6d90bb9e8f7b5d1528f08c
 C:\Users\micha\ProgLang\plc-groupwork\plc-groupwork.cabal:
-  hash: 7257865fe759bd8b16ad861843dec9fdfae6ed047816ec8b05c17fe28ec552a2
+  hash: 0bc7e89cdd89fbd6dd80a74095cd36e3aa9b4c4f55af04338cb0160f9470a541
 C:\Users\micha\ProgLang\plc-groupwork\src\DataStructure.hs:
   hash: 7c97423058ce3c8a13a6ed20c5fbaa10a33f49b00eab33195eae9ab519ab1292
 C:\Users\micha\ProgLang\plc-groupwork\src\Evaluator.hs:
-  hash: 8dec1fcd596fd3a4ed89064e8a953b58fdad19227eea2fd9068c4076b61c6de2
+  hash: 09a39cb0482b202157f8b9bbb1e19714de7fcd934c6bf8b3f75e98b3d5ad6189
+C:\Users\micha\ProgLang\plc-groupwork\src\ExpressionEvaluator.hs:
+  hash: 3722a9c02eb3f5eb9eda50560bcbd8fa9deaeb9603edcf18cc08d01c15146753
 C:\Users\micha\ProgLang\plc-groupwork\src\LangAst.hs:
-  hash: bfa41bca794397f04b03929dc1441d5f6c9e1282720eea1b2ba1c442e6b75d8f
+  hash: e62e1f10067e9a752fa740ef9d26d21a67c137d2197b3ab7821993b34232684e
 C:\Users\micha\ProgLang\plc-groupwork\src\LangLexer.x:
   hash: cc3e4870c956210000b287fb9a88527c46dd70e6db5e5199c8cbfb7ecb35a534
 C:\Users\micha\ProgLang\plc-groupwork\src\LangParser.y:
-  hash: a544ddf3266a4a8aea17855cfc91c44819bfea35fc1fbabf9c1247bacf563469
+  hash: 8fc3b7b859c202a776d93ca611220715b2a1d7a91f3499ee677683757be680cd
 C:\Users\micha\ProgLang\plc-groupwork\src\LangTokens.hs:
   hash: 559ed82318693415d406764650e5654915e56685630c7f85567e82317da7c580
 C:\Users\micha\ProgLang\plc-groupwork\src\N4jAst.hs:

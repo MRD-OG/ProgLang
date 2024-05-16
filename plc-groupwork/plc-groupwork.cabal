@@ -27,6 +27,7 @@ library
   exposed-modules:
       DataStructure
       Evaluator
+      ExpressionEvaluator
       LangAst
       LangLexer
       LangParser

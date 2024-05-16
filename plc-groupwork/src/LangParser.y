@@ -168,7 +168,7 @@ import LangAst (
       | Exp "/" Exp {Division $1 $3}
       | Exp "%" Exp {Modulo $1 $3}
       | Exp "^" Exp {Power $1 $3}
-      | Exp "." DotMethod {Dot $1 $3}
+      | BooleanLogic "." DotMethod {Dot $1 $3}
       | "-" Exp {Negative $2}
       | "!" Exp {BooleanNot $2}
       | AtomicValue {Atomic $1}
